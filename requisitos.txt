@@ -1,0 +1,12 @@
+Un cine dispone de varias salas. 
+De cada sala se guarda un número identificativo (consecutivos empezando en 1), el estado de las butacas (libre/ocupada) y el título de la película que se proyecta. 
+
+Las funcionalidades que se quieren implementar son:
+
+1. Dar de alta una nueva sala. Para ello se pedirá el número de butacas. El número de sala se asignará automáticamente (será el siguiente a la última sala insertada). Inicialmente no se asigna ninguna película a la sala.
+
+2. Proyectar película. Se solicitará el número de sala en la que se quiere proyectar y el título de la película. Todas las butacas de la sala elegida pasarán a tener estado libre.
+
+3. Vender entradas. Se imprimirá el listado de películas con el número de sala para poder elegir y se solicitará el número de sala. Una vez confirmada la sala se mostrarán las butacas libres y se solicitará una. Una vez introducida la butaca correcta se marcará como ocupada.
+
+4. Vaciar sala. Una vez la proyección de una pelicula a terminado se quieren dejar todas las butacas de la sala libres para la siguiente sesión.
